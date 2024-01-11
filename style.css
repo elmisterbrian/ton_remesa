@@ -14,6 +14,12 @@ img {
 p {
     margin: 0 0 8.5px;
 }
+.subtitle {
+    color: #888;
+}
+.subtitle a {
+    color: #888;
+}
 .container {
     margin: 0 auto;
     padding-left: 15px;
