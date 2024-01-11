@@ -55,6 +55,15 @@ footer {
     border: solid 2px #ff0000;
     padding: 5px;
 }
+@media (min-width: 375px){
+    .qrcode div {
+        display: block;
+        text-align: center;
+    }
+    figure p {
+        margin-left: -30px;
+    }
+}
 @media (min-width: 765px) {
     .container {
         width: 750px;
@@ -63,4 +72,9 @@ img {
     max-width: 600px;
     margin: 0 auto;
 }
+}
+@media (min-width: 1024px){
+    .qrcode div {
+        display: flex;
+    }
 }
