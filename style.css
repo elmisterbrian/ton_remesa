@@ -76,5 +76,15 @@ img {
 @media (min-width: 1024px){
     .qrcode div {
         display: flex;
+        width: 500px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        border: 5px solid #0098ea;
+        border-radius: 10px;
+        margin-left: 40px;
+        scroll-snap-type: x proximity;
+    }
+    .qrcode div figure {
+        scroll-snap-align: center;
     }
 }
