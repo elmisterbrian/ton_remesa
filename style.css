@@ -55,6 +55,13 @@ footer {
     border: solid 2px #ff0000;
     padding: 5px;
 }
+.warning {
+    display: flex;
+}
+.warning img {
+    width: 5rem;
+    height: auto;
+}
 @media (min-width: 375px){
     .qrcode div {
         display: block;
