@@ -59,8 +59,8 @@ footer {
     display: flex;
 }
 .warning img {
-    width: 5rem;
-    height: auto;
+    width: 25%;
+    height: 100px;
 }
 @media (min-width: 375px){
     .qrcode div {
